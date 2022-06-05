@@ -7,6 +7,9 @@
     <meta name="description" content="Get to know me and see my previous projects.">
     <title>Home | Marthe B.</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="screen and (max-width: 1100px)">
+    <link rel="stylesheet" href="style.css" media="screen and (max-width: 900px)">
+    <link rel="stylesheet" href="style.css" media="screen and (max-width: 600px)">
     <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,17 +21,64 @@
             <a id="logo" href="index.html">MARTHE B.</a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">HOME</a>
+                    <a href="index.html" class="nav-link activated">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">ABOUT</a>
+                    <a href="#blue-tab" class="nav-link">ABOUT</a>
                 </li>
                 <li class="nav-item">
                     <a href="projects.html" class="nav-link">PROJECTS</a>
                 </li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
-    
+    <main>
+        <div id="main">
+            <div class="welcome">
+                <h1>DESIGNER & <span class="line-break">FRONTEND DEVELOPER</span></h1>
+                <a href="projects.html" class="button">SEE MY WORK</a>
+                <div id="circle"></div>
+                <a href="#about"><span id="blue-tab"></span></a>
+            </div>
+            <div id="about">
+                <div id="about-text">
+                    <h2>HI I'M MARTHE.</h2>
+                <p>
+                    Turtles are seriously threatened by climate change. Sand temperature is a factor in the sex of turtles and increasing temperatures may result in only female hatchlings. Climate change also brings rising sea levels, higher tides and more extreme weather events which can destroy turtle nesting sites.
+                </p>
+                <h3>SKILLSET</h3>
+                <p>
+                    HTML, CSS, Javascript
+                </p>
+                </div>
+                <div>
+                    <picture>
+                        <source media="(max-width:600px)" srcset="./media/portrait-mobile.jpg">
+                        <img id="about-img" src="./media/portrait-desktop.jpg" alt="Illustrated portait">
+                      </picture>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+            <a id="foot-logo" href="index.html">MARTHE B.</a>
+            <ul id="first" class="foot-nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link activated">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blue-tab" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">PROJECTS</a>
+                </li>
+            </ul>
+    </footer>
 </body>
 </html>

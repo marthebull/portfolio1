@@ -7,6 +7,7 @@
     <meta name="description" content="Get to know me and see my previous projects.">
     <title>Projects | Marthe B.</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="screen and (max-width: 800px)">
     <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,7 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="index.html">MARTHE B.</a>
+            <a id="logo" href="index.html">MARTHE B.</a>
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="index.html" class="nav-link">HOME</a>
@@ -24,11 +25,40 @@
                     <a href="#" class="nav-link">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a href="projects.html" class="nav-link">PROJECTS</a>
+                    <a href="projects.html" class="nav-link activated">PROJECTS</a>
                 </li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
+    <main>
+        <div id="main">
+            <h1 id="projects-h1">PROJECTS</h1>
+            <div class="white-box projects">
+                <picture>
+                    <source media="(max-width:600px)" srcset="./media/extinct-featured-mobile.jpg">
+                    <img class="featured" src="./media/extinct-featured-desktop.jpg" alt="Illustrated portait">
+                </picture>
+                <div class="text-box">
+                    <h2>EXTINCT</h2>
+                    <p>
+                        Blogg om utrydningstruede dyrearter laget som skoleprosjekt. Innhold er hentet fra API og vist på en dynamisk måte med karusell, mulighet for å laste inn flere innlegg samt validering av kontaktskjema med Javascript.  
+                    </p>
+                    <p>
+                        Bygget med html, css og Javascript.
+                    </p>
+                    <a class="button" href="#">READ MORE</a>
+                </div>
+                
+
+            </div>
+            
+        </div>
+    </main>
     
 </body>
 </html>
