@@ -24,15 +24,25 @@ main {
 
 .button {
     background-color: #0431CF;
+    border: 3px solid #0431CF;
     font-size: .8rem;
     display: block;
     color: white;
     font-weight: bold;
     padding: 20px 40px;
     text-align: center;
-    max-width: 300px;
+    width: 250px;
     border-radius: 50px;
     z-index: 7;
+}
+
+.button:hover {
+    background: none;
+    color: #0431CF;
+}
+
+.button:active {
+    background-color: #FFDADA;
 }
 
 
@@ -47,6 +57,10 @@ header {
     font-size: 2rem;
     font-weight: 700;
     min-width: 200px;
+}
+
+#logo:hover, #foot-logo:hover {
+    color: #0431CF;
 }
 
 li {
@@ -81,7 +95,7 @@ a {
     padding: 10px;
 }
 
-.nav-link:hover, .activated {
+.activated {
     border-bottom: 1px solid black;
 }
 
@@ -317,6 +331,26 @@ footer {
     border-radius: 0 0 5px 5px;
 }
 
+.project-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.project-nav a {
+    display: flex;
+    gap: 20px;
+}
+
+.back, .next {
+    display: flex;
+    gap: 20px;
+}
+
+.back p, .next p {
+    letter-spacing: .1rem;
+}
+
 
 
 
@@ -434,6 +468,10 @@ footer {
         justify-content: center;
     }
 
+    .text-box .button {
+        margin: 50px auto 0;
+    }
+
     /* Project */
 
 
@@ -477,10 +515,6 @@ footer {
 
     .nav-menu {
         top: 70px;
-    }
-
-    .project-container {
-        margin-top: 50px;
     }
 
     #about div img, #about-text {
