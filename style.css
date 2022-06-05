@@ -137,15 +137,23 @@ h1 {
     display: block;
 }
 
+#scroll {
+    height: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    bottom: 50px;
+    align-items: center;
+    z-index: 100;
+}
+
 #blue-tab {
     height: 7px;
     width: 50px;
     border-radius: 5px;
     background-color: #0431CF;
-    position: absolute;
-    bottom: 60px;
-    left: 50%;
-    z-index: 8;
+
 }
 
 #circle {
@@ -284,6 +292,11 @@ h1 {
         max-width: 400px;
     }
 
+
+   
+
+
+
 }
 
 
@@ -291,6 +304,10 @@ h1 {
 
     #about div img, #about-text {
         width: 100%;
+    }
+
+    #about div #about-img{
+        min-width: 200px;
     }
 
     #about {
