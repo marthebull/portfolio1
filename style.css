@@ -471,6 +471,10 @@ footer {
         height: 10vh;
     }
 
+    .nav-menu {
+        top: 70px;
+    }
+
     .project-container {
         margin-top: 50px;
     }
