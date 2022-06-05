@@ -463,8 +463,12 @@ footer {
         padding: 20px;
     }
 
-    #logo {
+    #logo, #foot-logo {
         font-size: 1.5rem;
+    }
+
+    #foot-logo {
+        text-align: center;
     }
 
     .navbar {
@@ -497,11 +501,19 @@ footer {
     }
 
     #h1-welcome {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     #circle {
         bottom: -50%;
+    }
+
+    .white-box {
+        margin-bottom: 0;
+    }
+
+    .projects {
+        margin-bottom: 30px;
     }
 
     
