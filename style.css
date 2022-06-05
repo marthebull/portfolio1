@@ -20,6 +20,7 @@ main {
 
 .button {
     background-color: #0431CF;
+    font-size: .8rem;
     display: block;
     color: white;
     font-weight: bold;
@@ -245,6 +246,65 @@ h1 {
     margin-top: 50px;
 }
 
+/* Project*/
+
+.project-container {
+    background-color: white;
+    position: relative;
+    z-index: 2000;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 30px 1px #f8c3a4;
+}
+
+.project-hero {
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 100px;
+    justify-content: center;
+    gap: 70px;
+
+}
+
+.section img {
+    width: 50%;
+    max-width: 400px;
+    align-self: center;
+}
+
+.text {
+    max-width: 400px;
+}
+
+.text > * {
+    margin-bottom: 20px;
+}
+
+.teknologi {
+    margin-top: 50px;
+}
+
+.text li {
+    list-style: disc;
+    margin: 0 0 5px 25px;
+}
+
+.top-img {
+    border-radius: 5px 5px 0 0;
+}
+
+.bottom-img {
+    border-radius: 0 0 5px 5px;
+}
+
 
 
 
@@ -355,6 +415,13 @@ h1 {
         min-width: 200px;
         max-width: 400px;
     }
+
+    .text-box  {
+        align-items: center;
+        justify-content: center;
+    }
+
+
 
 }
 
