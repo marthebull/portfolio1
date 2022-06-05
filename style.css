@@ -453,7 +453,7 @@ footer {
 
 @media screen and (max-width: 600px) {
 
-    .main {
+    .main, .navbar {
         padding: 20px;
     }
 
