@@ -261,6 +261,10 @@ h1 {
     box-shadow: 1px 1px 30px 1px #f8c3a4;
 }
 
+.project-container:last-child {
+    padding-bottom: 40px;
+}
+
 .project-hero {
     width: 100%;
 }
@@ -292,6 +296,10 @@ h1 {
     margin-top: 50px;
 }
 
+.text ul li {
+    overflow-inline: auto;
+}
+
 .text li {
     list-style: disc;
     margin: 0 0 5px 25px;
@@ -318,6 +326,7 @@ h1 {
 }
 
 @media screen and (max-width: 900px) {
+
 
 
     .hamburger {
@@ -421,6 +430,19 @@ h1 {
         justify-content: center;
     }
 
+    /* Project */
+
+
+    .section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .section img {
+        width: 100%;
+    }
+
+
 
 
 }
@@ -431,6 +453,18 @@ h1 {
 
 
 @media screen and (max-width: 600px) {
+
+    .main {
+        padding: 20px;
+    }
+
+    .navbar {
+        height: 10vh;
+    }
+
+    .project-container {
+        margin-top: 50px;
+    }
 
     #about div img, #about-text {
         width: 100%;
