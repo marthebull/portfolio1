@@ -219,6 +219,10 @@ footer {
     margin-bottom: 20px;
 }
 
+.display-mobile {
+    display: none;
+}
+
 /* Projects */
 
 .projects {
@@ -261,7 +265,7 @@ footer {
     margin-bottom: 20px;
 }
 
-.text-box .button {
+.text-box .button, #about-text .button {
     margin-top: 50px;
 }
 
@@ -448,6 +452,14 @@ footer {
         max-width: 400px;
     }
 
+    .display-mobile {
+        display: block;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
 
    /* Projects */
 
@@ -463,14 +475,15 @@ footer {
         max-width: 400px;
     }
 
-    .text-box  {
+    .text-box, #about-text {
         align-items: center;
         justify-content: center;
     }
 
-    .text-box .button {
+    .text-box .button, #about-text .button {
         margin: 50px auto 0;
     }
+
 
     /* Project */
 
@@ -529,8 +542,6 @@ footer {
         padding: 50px 20px;
         gap: 50px;
     }
-
-    
 
     #h1-welcome {
         font-size: 2rem;
