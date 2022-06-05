@@ -298,7 +298,10 @@ footer {
     padding: 50px 100px;
     justify-content: center;
     gap: 70px;
+}
 
+.section .button {
+    margin-bottom: 30px;
 }
 
 .section img {
