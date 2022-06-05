@@ -435,6 +435,7 @@ footer {
     .section {
         flex-direction: column;
         padding: 20px;
+        gap: 40px;
     }
 
     .section img {
@@ -488,7 +489,6 @@ footer {
 
     #circle {
         bottom: -50%;
-        
     }
 
     
