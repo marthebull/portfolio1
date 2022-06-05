@@ -6,6 +6,10 @@
     letter-spacing: .1rem;
 }
 
+p {
+    letter-spacing: 0;
+}
+
 main {
     background: linear-gradient(0deg, rgba(255,224,202,1) 0%, rgba(255,233,178,1) 80%);
     min-height: 100vh;
