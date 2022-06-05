@@ -173,7 +173,6 @@ footer {
     bottom: -30%;
     z-index: 1;
     box-shadow: 5px 10px 50px 20px #ffae8e;
-    
 }
 
 #about {
@@ -486,6 +485,13 @@ footer {
     #h1-welcome {
         font-size: 2rem;
     }
+
+    #circle {
+        bottom: -50%;
+        
+    }
+
+    
 
     
 
