@@ -6,7 +6,7 @@
     letter-spacing: .1rem;
 }
 
-p, .text li {
+p, .text li, .p {
     letter-spacing: 0;
 }
 
@@ -213,6 +213,11 @@ footer {
 #about-text {
     min-width: 220px;
     max-width: 350px;
+}
+
+.p {
+    display: block;
+    cursor: pointer;
 }
 
 #about-text > * {
