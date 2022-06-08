@@ -219,6 +219,10 @@ footer {
     max-width: 350px;
 }
 
+#about-text h3 {
+    margin-top: 50px;
+}
+
 .p {
     display: block;
     cursor: pointer;
