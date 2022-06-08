@@ -321,8 +321,8 @@ footer {
     gap: 70px;
 }
 
-.section .button {
-    margin-bottom: 30px;
+.links {
+    padding-bottom: 100px;
 }
 
 .section img {
@@ -517,6 +517,10 @@ footer {
         flex-direction: column;
         padding: 20px;
         gap: 40px;
+    }
+
+    .links {
+        padding-bottom: 50px;
     }
 
     .section img {
