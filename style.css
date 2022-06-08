@@ -6,6 +6,10 @@
     letter-spacing: .1rem;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 p, .text li, .p {
     letter-spacing: 0;
 }
