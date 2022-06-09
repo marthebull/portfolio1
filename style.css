@@ -293,6 +293,8 @@ footer {
 .date {
     color: rgb(151, 151, 151);
     font-size: .8rem;
+    line-height: 1rem;
+    letter-spacing: .05rem;
 }
 
 /* Project*/
