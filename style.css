@@ -290,6 +290,11 @@ footer {
     margin-top: 50px;
 }
 
+.date {
+    color: rgb(151, 151, 151);
+    font-size: .8rem;
+}
+
 /* Project*/
 
 .project-container {
