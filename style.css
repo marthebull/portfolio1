@@ -53,8 +53,6 @@ main {
     background-color: #FFDADA;
 }
 
-
-
 /*  Menu */
 
 header {
@@ -99,7 +97,6 @@ a {
 }
 
 .nav-link {
-    /*transition: 3s ease-in-out;*/
     padding: 10px;
 }
 
@@ -351,11 +348,9 @@ footer {
     margin-top: 40px;
 }
 
-
 .text li {
     list-style: disc;
     margin: 0 0 5px 25px;
-    
 }
 
 .top-img {
@@ -387,18 +382,9 @@ footer {
     box-shadow: 1px 1px 30px 1px #f8c3a4;
 }
 
-/* Tok vekk dette, bare piler
-.back p, .next p {
-    letter-spacing: .1rem;
-}
-*/
-
 .angle {
     margin: 0 5px;
 }
-
-
-
 
 
 
@@ -531,7 +517,6 @@ footer {
 
     /* Project */
 
-
     .section {
         flex-direction: column;
         padding: 20px;
@@ -545,15 +530,7 @@ footer {
     .section img {
         width: 100%;
     }
-
-
-
-
 }
-
-
-
-
 
 
 @media screen and (max-width: 600px) {
@@ -606,9 +583,4 @@ footer {
     .projects {
         margin-bottom: 30px;
     }
-
-    
-
-    
-
 }
